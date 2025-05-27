@@ -9,12 +9,8 @@ public class Reading {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String sensorId;
-
-    // @Column(name = "sensor_value") // evita usar "value", que é reservada
     private Double sensorValue;
-
     private LocalDateTime timestamp;
 
     public Reading() {}
