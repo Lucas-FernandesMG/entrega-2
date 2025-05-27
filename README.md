@@ -4,10 +4,10 @@ Este é o backend de um projeto de Digital Twin, desenvolvido com **Spring Boot*
 
 ---
 ## Integrantes 
-Lucas Fernandes Marabini Gaspar  RM:98814
-Emerson Batista da Silva  RM:96288
-Leonardo yukio Uliana Seno RM:550648
-Eduarco Cicero dos Santos RM:551415
+- Lucas Fernandes Marabini Gaspar  RM:98814
+- Emerson Batista da Silva  RM:96288
+- Leonardo yukio Uliana Seno RM:550648
+- Eduarco Cicero dos Santos RM:551415
 
 ## 🧱 Entidade: Reading
 
