@@ -1,13 +1,21 @@
-# Backend Digital Twin - Entrega 2
+## 🚀 Como rodar o projeto
 
-## 🔧 Como rodar
+### Pré-requisitos
 
-1. Clonar o repositório e navegar até a pasta:
-```bash
-git clone https://github.com/seu-usuario/digital-twin-backend.git
-cd digital-twin-backend 
+- Java 17 ou superior
+- Maven 3.8+
+- IDE (IntelliJ, Eclipse, VS Code etc.) — opcional
 
-Lucas Fernandes Marabini Gaspar  RM:98814
-Emerson Batista da Silva  RM:96288
-Leonardo yukio Uliana Seno RM:550648
-Eduarco Cicero dos Santos RM:551415
+### Passos
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+2. Compile e rode:
+./mvnw spring-boot:run
+
+3. Acesse no navegador:
+   
+http://localhost:8080
