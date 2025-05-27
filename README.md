@@ -38,8 +38,8 @@ A entidade `Reading` representa uma leitura capturada por um sensor:
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
 2. Compile e rode:
-./mvnw spring-boot:run
+- ./mvnw spring-boot:run
 
 3. Acesse no navegador:
    
-http://localhost:8080
+- http://localhost:8080
