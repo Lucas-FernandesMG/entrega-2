@@ -9,14 +9,14 @@ public class Reading {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String sensorId;
+    private String sensorName;
     private Double sensorValue;
     private LocalDateTime timestamp;
 
     public Reading() {}
 
-    public Reading(String sensorId, Double sensorValue, LocalDateTime timestamp) {
-        this.sensorId = sensorId;
+    public Reading(String sensorName, Double sensorValue, LocalDateTime timestamp) {
+        this.sensorName = sensorName;
         this.sensorValue = sensorValue;
         this.timestamp = timestamp;
     }
@@ -29,12 +29,12 @@ public class Reading {
         this.id = id;
     }
 
-    public String getSensorId() {
-        return sensorId;
+    public String getSensorName() {
+        return sensorName;
     }
 
-    public void setSensorId(String sensorId) {
-        this.sensorId = sensorId;
+    public void setSensorName(String sensorId) {
+        this.sensorName = sensorName;
     }
 
     public Double getSensorValue() {

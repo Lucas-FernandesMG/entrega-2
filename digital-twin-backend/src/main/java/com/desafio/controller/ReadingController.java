@@ -27,8 +27,8 @@ public class ReadingController {
         return repository.findAll();
     }
 
-    @GetMapping("/{sensorId}")
-    public List<Reading> getBySensorId(@PathVariable String sensorId) {
-        return repository.findBySensorId(sensorId);
+    @GetMapping("/{sensorName}")
+    public List<Reading> getBySensorName(@PathVariable String sensorName) {
+        return repository.findBySensorName(sensorName);
     }
 }
