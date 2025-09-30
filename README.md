@@ -1,4 +1,4 @@
-# 📡 Digital Twin Backend
+# 📡 Digital Twin Backend (ENTREGA 3) 
 
 Este é o backend de um projeto de Digital Twin, desenvolvido com **Spring Boot**, utilizando **JPA/Hibernate** e banco de dados **H2**. A aplicação permite salvar e recuperar leituras de sensores (entidade `Reading`).
 
