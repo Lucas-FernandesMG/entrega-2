@@ -33,7 +33,7 @@ public class Reading {
         return sensorName;
     }
 
-    public void setSensorName(String sensorId) {
+    public void setSensorName(String sensorName) {
         this.sensorName = sensorName;
     }
 
