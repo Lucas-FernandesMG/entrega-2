@@ -16,7 +16,7 @@ A entidade `Reading` representa uma leitura capturada por um sensor:
 | Campo         | Tipo            | Descrição                        |
 |---------------|-----------------|----------------------------------|
 | `id`          | `Long`          | Identificador único              |
-| `sensorId`    | `String`        | ID do sensor                     |
+| `sensorName`  | `String`        | Nome do Sensor                   |
 | `sensorValue` | `Double`        | Valor registrado pelo sensor     |
 | `timestamp`   | `LocalDateTime` | Data e hora da leitura           |
 
