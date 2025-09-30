@@ -22,24 +22,59 @@ A entidade `Reading` representa uma leitura capturada por um sensor:
 
 ---
 
-## 🚀 Como rodar o projeto
+## Descrição
 
-### Pré-requisitos
+Este é o frontend do projeto Digital Twin. Ele consome dados do backend real, exibindo leituras de sensores e seus históricos.
 
-- Java 17 ou superior
-- Maven 3.8+
-- IDE (IntelliJ, Eclipse, VS Code etc.) — opcional
+---
 
-### Passos
+## Como rodar
 
 1. Clone o repositório:
+   ```
+   git clone https://github.com/Lucas-FernandesMG/entrega-1.git
+   ```
+2. Entre na pasta do projeto:
+   ```
+   cd entrega-1
+   ```
+3. Instale as dependências:
+   ```
+   npm install
+   ```
+4. Inicie o frontend:
+   ```
+   npm start
+   ```
+   ou, se for React Native:
+   ```
+   expo start
+   ```
+5. Garanta que o backend está rodando em `http://localhost:8080`.
 
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-2. Compile e rode:
-- ./mvnw spring-boot:run
+---
 
-3. Acesse no navegador:
-   
-- http://localhost:8080
+## Configuração da URL da API
+
+No menu de configurações, você pode ajustar a URL do backend consumido (exemplo: `http://localhost:8080/api/readings`).
+
+---
+
+## Exemplo de funcionamento
+
+- Listagem de sensores exibindo nome, valor e horário.
+- Ao clicar em um sensor, mostra o histórico de leituras.
+- Integração real com o backend via requisições HTTP (`fetch`).
+
+---
+
+## Prints de telas
+
+Adicione aqui screenshots do app mostrando listagem de sensores e detalhes de um sensor consumindo dados reais do backend.
+
+---
+
+## Observações
+
+- O app consome os campos: `sensorName`, `sensorValue`, `timestamp` e `id` da API.
+- Certifique-se que o backend está ativo para visualizar os dados.
