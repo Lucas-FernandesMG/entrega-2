@@ -83,15 +83,6 @@ export SPRING_DATASOURCE_DRIVER="com.mysql.cj.jdbc.Driver"
 export SPRING_JPA_DDL_AUTO="update"
 ```
 
-### PostgreSQL (se adicionar o serviço `postgres`)
-```bash
-export SPRING_DATASOURCE_URL="jdbc:postgresql://localhost:5432/digitaltwindb"
-export SPRING_DATASOURCE_USERNAME="app"
-export SPRING_DATASOURCE_PASSWORD="password"
-export SPRING_DATASOURCE_DRIVER="org.postgresql.Driver"
-export SPRING_JPA_DDL_AUTO="update"
-```
-
 ### Configuração JWT
 ```bash
 export JWT_SECRET="uma-chave-muito-segura-com-32-ou-mais-caracteres"
